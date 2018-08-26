@@ -1,7 +1,5 @@
-基于百度webuploader 做的Yii2上传组件
-
-<?php
-use fatjiong\webuploader\WebUploader;
-?>
-
-<?=WebUploader::widget(['url' => Url::to(['/admini/home/upload']), 'thumb' => ['width' => 1920, 'height' => 451]]);?>
+Yii2快递100查询快递组建，包含了
+1.快递公司识别
+2.快递信息免费接口
+3.快递信息收费接口
+4.快递订阅接口

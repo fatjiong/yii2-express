@@ -1,0 +1,22 @@
+{
+    "name": "fatjiong/yii2-express",
+    "description": "快递100查询组件。",
+    "type": "yii2-extension",
+    "keywords": ["fatjiong","yii2","extension","express","yii2-extension","yii2-uploader","yii2-express"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "fatjiong",
+            "email": "757970599@qq.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+        "yiisoft/yii2-httpclient": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fatjiong\\express\\": ""
+        }
+    }
+}
